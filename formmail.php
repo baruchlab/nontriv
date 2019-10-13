@@ -1,6 +1,6 @@
 <?php
-  $recipient = "g@g4t.info";
-  $fmtResponse= implode("", file("heart.html"));
+  $recipient = "comrade@telecommunistes.net,comrade@telekommunisten.net";
+  $fmtResponse= implode("", file("star.html"));
   $fmtMail= implode("", file("mail.htt"));
   foreach($_POST as $key=> $val) {
     $fmtResponse= str_replace("<$key>", $val, $fmtResponse);
